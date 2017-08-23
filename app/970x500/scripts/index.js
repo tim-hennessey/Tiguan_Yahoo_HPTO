@@ -25,9 +25,9 @@ $(function () {
     //Intro Animation
     // animateTo(485);
     TweenMax.set($dragMe, {x:485, onUpdate: updateImages});
-    tl2.to($dragMe, 1, {x:"+=150", ease: Sine.easeInOut, onUpdate: updateImages}, "+=1")
-        .to($dragMe, 2, {x:"-=300", ease: Sine.easeInOut, onUpdate: updateImages}, "+=.5")
-        .to($dragMe, 1, {x:"+=150", ease: Sine.easeInOut, onUpdate: updateImages}, "+=.5")
+    tl2.to($dragMe, 1, {x:"+=200", ease: Sine.easeInOut, onUpdate: updateImages}, "+=1")
+        .to($dragMe, 2, {x:"-=400", ease: Sine.easeInOut, onUpdate: updateImages}, "+=.5")
+        .to($dragMe, 1, {x:"+=200", ease: Sine.easeInOut, onUpdate: updateImages}, "+=.5")
         .to(introText, .5, {opacity: 1});
 
     function animateTo(x) {
