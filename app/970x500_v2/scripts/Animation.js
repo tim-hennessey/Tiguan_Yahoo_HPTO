@@ -22,6 +22,7 @@ app.Animation = (function () {
     var knobArrowRight;
     var knob;
     var buttonExit;
+    var intro_cta_arrow;
 
     var $dragMe = $("#dragme");
     var $beforeAfter = $("#before-after");
@@ -45,6 +46,17 @@ app.Animation = (function () {
         knobArrowRight = document.getElementById('knobArrowRight');
         knob = document.getElementById('knob');
         buttonExit = document.getElementById('button-exit');
+        intro_cta_arrow = document.getElementById('intro_cta_arrow');
+
+        buttonExit.addEventListener('mouseover', function () {
+            TweenMax.to(intro_cta_arrow, .25, {x: 5, ease: Sine.easeOut});
+            TweenMax.to(intro_cta_arrow, .25, {x: 0, delay: .25, ease: Sine.easeIn});
+            TweenMax.to(resolve_cta, .25, {backgroundColor:"#1072af"});
+        });
+
+        buttonExit.addEventListener('mouseout', function() {
+            TweenMax.to(resolve_cta, .25, {backgroundColor:"#00b1eb"});
+        });
     }
 
     // --------------------------------------------------------------------------------------
@@ -59,10 +71,10 @@ app.Animation = (function () {
             .to($dragMe, 2, {x: "-=400", ease: Power2.easeInOut, onUpdate: updateImages})
             .to($dragMe, 2, {x: "+=200", ease: Power2.easeInOut, onUpdate: updateImages})
             .to(introText, 1, {opacity: 1}, "-=.5")
-            .to(txt1, .5, {opacity: 1}, "-=.5")
-            .to(txt2, .5, {opacity: 1, onComplete: introEnd}, "-=.5")
-            .to(introText, .5, {opacity: 0}, "+=3")
-            .addLabel("myLabel", "-=.5");
+            .to(txt1, 1, {opacity: 1}, "-=.5")
+            .to(txt2, 1, {opacity: 1, onComplete: introEnd}, "-=1")
+            .addLabel("myLabel", "+=3")
+            .to(introText, .5, {opacity: 0, onComplete: function(){myBool = false;}}, "+=3");
 
         function updateImages() {
             TweenMax.set($viewAfter, {width: $dragMe[0]._gsTransform.x});
@@ -76,8 +88,8 @@ app.Animation = (function () {
         }
 
         function introEnd() {
-            TweenMax.to(knobArrowLeft, .25, {x: "-=3", repeat: -1, yoyo: true, ease: Power2.easeInOut});
-            TweenMax.to(knobArrowRight, .25, {x: "+=3", repeat: -1, yoyo: true, ease: Power2.easeInOut});
+            TweenMax.to(knobArrowLeft, .2, {x: "-=3", repeat: -1, yoyo: true, ease: Power1.easeOut});
+            TweenMax.to(knobArrowRight, .2, {x: "+=3", repeat: -1, yoyo: true, ease: Power1.easeOut});
 
             introTime = setTimeout(resolveFunc, 10000);
 
@@ -109,7 +121,6 @@ app.Animation = (function () {
             var draggable = Draggable.get($dragMe);
 
             $beforeAfter.on("click", function (event) {
-                // myBool = false;
                 if (draggable.isDragging || draggable.isThrowing) return;
 
                 var eventLeft = event.clientX - $beforeAfter.offset().left;
@@ -145,8 +156,6 @@ app.Animation = (function () {
                 .to(resolve_txtb, .5, {opacity:1})
                 .to(resolve_cta, .5, {opacity:1}, "+=.5");
         }
-
-
     }
 
     // --------------------------------------------------------------------------------------

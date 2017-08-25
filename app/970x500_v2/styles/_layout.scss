@@ -16,15 +16,24 @@ body {
     margin-top: -$banner-height / 2;
 
     #button-exit {
-        background-color: rgba(255, 0, 255, .5);
+        background-color: rgba(255, 0, 255, 0);
         cursor: pointer;
         height: 100%;
-        left: 0px;
+        left: 0;
         position: absolute;
-        top: 0px;
+        top: 0;
         width: 100%;
+    }
 
-        //pointer-events: none;
+    #button-collapse {
+        background-color: rgba(255, 0, 255, 0);
+        cursor: pointer;
+        height: 22px;
+        width: 85px;
+        top: 10px;
+        left: 10px;
+        z-index: 1500;
+        position: absolute;
     }
 
     #border {
@@ -69,6 +78,14 @@ body {
             left: 30px;
             bottom: 27px;
             position: absolute;
+            clip: rect(0px, 438px, 27px, 0px);
+        }
+
+        #intro_cta_arrow {
+            left: 30px;
+            bottom: 27px;
+            position: absolute;
+            clip: rect(0px, 448px, 27px, 438px);
         }
     }
 
@@ -83,30 +100,31 @@ body {
         z-index: 500;
     }
 
-    #before-after{
+    #before-after {
         position: relative;
         width: $banner-width;
         height: 420px;
     }
 
-    #collapse{
+    #collapse {
         position: absolute;
         width: 175px;
         height: 75px;
         z-index: 1500;
         top: 0;
         left: 0;
-        background: linear-gradient(170deg, rgba(0,0,0,1) 0%,rgba(0,0,0,.5) 40%,rgba(0,0,0,0) 70%);
-        opacity:0;
+        background: linear-gradient(160deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, .5) 30%, rgba(0, 0, 0, 0) 50%);
+        opacity: 0;
+        pointer-events: none;
 
-        #collapse_btn_txt{
+        #collapse_btn_txt {
             position: absolute;
             top: 15px;
             left: 15px;
         }
     }
 
-    .view{
+    .view {
         position: absolute;
         top: 0;
         left: 0;
@@ -115,15 +133,15 @@ body {
         overflow: hidden;
     }
 
-    .view-before{
+    .view-before {
         z-index: 100;
     }
 
-    .view-after{
+    .view-after {
         z-index: 200;
     }
 
-    #dragme{
+    #dragme {
         position: absolute;
         width: 3px;
         height: 420px;
@@ -133,94 +151,93 @@ body {
         cursor: pointer;
         z-index: 300;
 
-        #knob{
+        #knob {
             position: absolute;
-            top: 186.5px;
-            left: -21.5px;
+            top: 187px;
+            left: -22px;
+            transform: translate3d(0, 0, 0.1px);
             cursor: pointer;
         }
-        #knobArrowLeft{
+        #knobArrowLeft {
             position: absolute;
-            top: 186.5px;
-            left: -21.5px;
-            cursor: pointer;
-            clip: rect(16px,23px,31px,11px);
+            top: 187px;
+            left: -22px;
+            pointer-events: none;
+            transform: translate3d(0, 0, 0.1px);
+            clip: rect(16px, 23px, 31px, 11px);
         }
-        #knobArrowRight{
+        #knobArrowRight {
             position: absolute;
-            top: 186.5px;
-            left: -21.5px;
-            cursor: pointer;
-            clip: rect(16px,36px,31px,24px);
+            top: 187px;
+            left: -22px;
+            pointer-events: none;
+            transform: translate3d(0, 0, 0.1px);
+            clip: rect(16px, 36px, 31px, 24px);
         }
     }
 
-    #introText{
+    #introText {
         background-color: rgba(0, 0, 0, .5);
         z-index: 200;
-        opacity:0;
+        opacity: 0;
         pointer-events: none;
 
-        #txt1{
+        #txt1 {
             position: absolute;
             top: 194px;
             left: 172px;
-            opacity:0;
+            opacity: 0;
         }
 
-        #txt2{
+        #txt2 {
             position: absolute;
             top: 194px;
             right: 172px;
-            opacity:0;
+            opacity: 0;
         }
     }
 
-    #resolve{
+    #resolve {
         z-index: 1000;
-        opacity:0;
+        opacity: 0;
         pointer-events: none;
         position: absolute;
 
-        #hero{
-            bottom:0;
-            right:50px;
+        #hero {
+            bottom: 0;
+            right: 50px;
             position: absolute;
             transform: scale(1.1) translate3d(0, 0, 0.1px);
-            //opacity:0;
         }
-        #resolve_txta{
-            top:50px;
-            left:50px;
-            clip: rect(0px,382px,95px,0px);
+        #resolve_txta {
+            top: 50px;
+            left: 50px;
+            clip: rect(0px, 382px, 95px, 0px);
             position: absolute;
-            //opacity:0;
         }
-        #resolve_txtb{
-            top:50px;
-            left:50px;
-            clip: rect(95px,382px,173px,0px);
+        #resolve_txtb {
+            top: 50px;
+            left: 50px;
+            clip: rect(95px, 382px, 173px, 0px);
             position: absolute;
-            opacity:0;
+            opacity: 0;
         }
-        #resolve_cta{
-            top:250px;
-            left:50px;
+        #resolve_cta {
+            top: 250px;
+            left: 50px;
             cursor: pointer;
             background: #00b1eb;
             border-radius: 5px;
-            width:185px;
-            height:48px;
+            width: 185px;
+            height: 48px;
             position: absolute;
-            opacity:0;
+            opacity: 0;
 
-            #resolve_cta_txt{
+            #resolve_cta_txt {
                 position: absolute;
-                //opacity:0;
             }
         }
 
     }
-
 
 }
