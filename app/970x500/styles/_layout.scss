@@ -5,7 +5,7 @@ body {
 }
 
 #banner {
-    background: #111;
+    background: #FFF;
     position: absolute;
     overflow: hidden;
     width: $banner-width;
@@ -14,128 +14,6 @@ body {
     top: 50%;
     margin-left: -$banner-width / 2;
     margin-top: -$banner-height / 2;
-
-    #button-exit {
-        background-color: rgba(255, 255, 255, 0);
-        cursor: pointer;
-        height: 100%;
-        left: 0px;
-        position: absolute;
-        top: 0px;
-        width: 100%;
-
-        pointer-events: none;
-    }
-
-    #border {
-        border: 3px solid #FFFFFF;
-        display: block;
-        width: $banner-width - 6;
-        height: $banner-height - 6;
-        left: 0;
-        top: 0;
-        pointer-events: none;
-        position: absolute;
-        z-index: 999;
-    }
-
-    #border2 {
-        border: 1px solid #000000;
-        display: block;
-        width: $banner-width - 2;
-        height: $banner-height - 2;
-        left: 0;
-        top: 0;
-        pointer-events: none;
-        position: absolute;
-        z-index: 999;
-    }
-
-    #footer {
-        background: #FFFFFF;
-        right: 0;
-        bottom: 0;
-        width: $banner-width;
-        height: 80px;
-        position: absolute;
-
-        #logo {
-            right: 22px;
-            bottom: 15px;
-            position: absolute;
-        }
-    }
-
-    #curtain {
-        background: #FFF;
-        top: 0;
-        left: 0;
-        width: $banner-width;
-        height: $banner-height;
-        position: absolute;
-        pointer-events: none;
-        z-index: 500;
-    }
-
-    #before-after{
-        position: relative;
-        width: $banner-width;
-        height: 420px;
-    }
-
-    .view{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: $banner-width;
-        height: 420px;
-        overflow: hidden;
-    }
-
-    .view-before{
-        z-index: 100;
-    }
-
-    .view-after{
-        z-index: 200;
-    }
-
-    #dragme{
-        position: absolute;
-        width: 3px;
-        height: 420px;
-        top: 0;
-        left: 0;
-        background-color: #00b1eb;
-        cursor: pointer;
-        z-index: 300;
-
-        #knob{
-            position: absolute;
-            top: 186.5px;
-            left: -21.5px;
-            cursor: pointer;
-        }
-    }
-
-    #introText{
-        background-color: rgba(0, 0, 0, .5);
-        z-index: 200;
-        opacity:0;
-        pointer-events: none;
-
-        #txt1{
-            position: absolute;
-            top: 194px;
-            left: 172px;
-        }
-
-        #txt2{
-            position: absolute;
-            top: 194px;
-            right: 172px;
-        }
-    }
 
 
 }
