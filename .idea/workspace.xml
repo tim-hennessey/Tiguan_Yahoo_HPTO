@@ -2,56 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e1ebff1-7e46-41ac-8914-dbf5ae2f3283" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x250/images/cta_txt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x250/images/hero.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x250/images/logo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x250/images/txt1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x250/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x250/scripts/Animation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x250/scripts/BannerSizmek.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x250/scripts/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x250/styles/_fonts.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x250/styles/_layout.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x250/styles/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x250/styles/main.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x500/images/day.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x500/images/knob.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x500/images/logo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x500/images/night.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x500/images/txt1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x500/images/txt2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x500/scripts/Animation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x500/scripts/BannerSizmek.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x500/scripts/Draggable.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x500/scripts/ThrowPropsPlugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x500/scripts/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x500/scripts/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x500_v2/images/collapse.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x500_v2/images/day.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x500_v2/images/hero.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x500_v2/images/intro_cta.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x500_v2/images/knob.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x500_v2/images/logo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x500_v2/images/night.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x500_v2/images/resolve_cta_txt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x500_v2/images/resolve_txt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x500_v2/images/txt1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x500_v2/images/txt2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x500_v2/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x500_v2/scripts/Animation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x500_v2/scripts/BannerSizmek.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x500_v2/scripts/Draggable.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x500_v2/scripts/ThrowPropsPlugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x500_v2/scripts/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x500_v2/styles/_fonts.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x500_v2/styles/_layout.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x500_v2/styles/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/970x500_v2/styles/main.scss" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Tiguan_Yahoo_HPTO.iml" afterPath="$PROJECT_DIR$/.idea/Tiguan_Yahoo_HPTO.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/970x500/index.html" afterPath="$PROJECT_DIR$/app/970x500/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/970x500/styles/_layout.scss" afterPath="$PROJECT_DIR$/app/970x500/styles/_layout.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/leavebehind/index.html" afterPath="$PROJECT_DIR$/app/leavebehind/index.html" />
     </list>
     <ignored path="Tiguan_Yahoo_HPTO.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,11 +23,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/billboard/index.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/leavebehind/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+            <state relative-caret-position="705">
+              <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/970x500/panels/leavebehind/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dist/970x500/panels/billboard/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="930">
+              <caret line="62" column="39" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -102,13 +73,16 @@
         <option value="$PROJECT_DIR$/app/970x250/styles/_layout.scss" />
         <option value="$PROJECT_DIR$/app/970x500/styles/_mixins.scss" />
         <option value="$PROJECT_DIR$/app/970x500/index.html" />
-        <option value="$PROJECT_DIR$/app/leavebehind/index.html" />
         <option value="$PROJECT_DIR$/app/leavebehind/styles/_layout.scss" />
         <option value="$PROJECT_DIR$/app/leavebehind/scripts/main.js" />
         <option value="$PROJECT_DIR$/app/leavebehind/scripts/Animation.js" />
         <option value="$PROJECT_DIR$/app/billboard/index.html" />
         <option value="$PROJECT_DIR$/app/billboard/styles/_layout.scss" />
         <option value="$PROJECT_DIR$/app/billboard/scripts/main.js" />
+        <option value="$PROJECT_DIR$/dist/970x500/index.html" />
+        <option value="$PROJECT_DIR$/app/leavebehind/index.html" />
+        <option value="$PROJECT_DIR$/dist/970x500/panels/leavebehind/index.html" />
+        <option value="$PROJECT_DIR$/dist/970x500/panels/billboard/index.html" />
       </list>
     </option>
   </component>
@@ -124,8 +98,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1277" />
-    <option name="y" value="39" />
+    <option name="x" value="1276" />
+    <option name="y" value="40" />
     <option name="width" value="1282" />
     <option name="height" value="1238" />
   </component>
@@ -183,7 +157,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -197,11 +171,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="billboard" />
+              <option name="myItemId" value="970x500" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -215,15 +189,45 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="970x500" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panels" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leavebehind" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tiguan_Yahoo_HPTO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tiguan_Yahoo_HPTO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="970x500" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panels" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="billboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -295,15 +299,15 @@
       <workItem from="1503594322461" duration="13112000" />
       <workItem from="1503622178221" duration="6450000" />
       <workItem from="1503629383990" duration="889000" />
-      <workItem from="1503681045315" duration="11026000" />
+      <workItem from="1503681045315" duration="11433000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53501000" />
+    <option name="totallyTimeSpent" value="53908000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1277" y="39" width="1282" height="1238" extended-state="0" />
+    <frame x="1276" y="40" width="1282" height="1238" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18715306" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -613,14 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/leavebehind/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/billboard/scripts/Animation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -667,6 +663,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="795">
           <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/970x500/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/leavebehind/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/970x500/panels/leavebehind/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/970x500/panels/billboard/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="62" column="39" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="39" />
           <folding />
         </state>
       </provider>
