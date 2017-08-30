@@ -88,7 +88,6 @@ body {
         height: $banner-height;
         position: absolute;
         pointer-events: none;
-        z-index: 500;
     }
 
     #txt1 {
@@ -138,7 +137,6 @@ body {
         bottom: 50px;
         opacity: 0;
         position: absolute;
-        z-index: 1001;
 
         #cta_txt {
             left: 0;
